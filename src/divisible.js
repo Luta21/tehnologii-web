@@ -1,9 +1,9 @@
-function checkDivisible(n, divizor){
-    if(n%divizor){
-        return false
-    }else{
-        return true
-    }
+function checkDivisible(n, divizor) {
+  if (n % divizor) {
+    return false;
+  } else {
+    return true;
+  }
 }
 
-console.log(checkDivisible(10,3))
+console.log(checkDivisible(10, 3));
